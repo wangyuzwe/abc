@@ -1,0 +1,9 @@
+#train and valid data directory
+train: ../PCB-yolov5/images
+val: ../PCB-yolov5/images
+
+#number of classes
+nc: 6
+
+#class names
+names: ['open', 'short', 'mousebite', 'spur', 'copper', 'pin-hole']
